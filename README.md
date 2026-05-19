@@ -18,3 +18,7 @@ The application continuously tracks battery percentage and alerts the user when 
 ## Goal
 
 This project was built primarily to get hands-on experience with Rust, native system interactions, and lightweight background utilities.
+
+## Running
+
+See [RUNNING.md](RUNNING.md) for build and run instructions.

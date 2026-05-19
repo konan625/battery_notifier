@@ -12,7 +12,7 @@ fn main() {
                 let percent = (battery.state_of_charge().value*100.0) as u8; //cast to unsigned 8 bit interger
                 let plugged_in = matches!(battery.state(),battery::State::Charging | battery::State::Full); // uses matches! macro to check if battery is either charging or full, return true if plugged_in
 
-                if plugged_in && percent>=90 {
+                if plugged_in && percent>=92 {
                     Notification::new()
                         .summary("Battery FUll 🔥")
                         .body("Charging complete! Unplug now 🔋")
